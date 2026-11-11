@@ -1,0 +1,24 @@
+CamSolid: usa el celular como webcam del PC
+============================================
+
+Requisitos
+- Windows 11.
+- Un celular Android 8.0 o superior, conectado por cable USB.
+- En el celular, la depuración USB activada:
+  Ajustes > Acerca del teléfono > toca 7 veces "Número de compilación",
+  luego Opciones de desarrollador > Depuración USB.
+  En Xiaomi, activa también "Instalar vía USB".
+
+Instalación
+1. Haz doble clic en Instalar.cmd y acepta el aviso de administrador.
+2. Abre CamSolid desde el menú Inicio o el escritorio.
+3. Conecta el celular. Si aún no tiene la app, pulsa "Instalar app en el celular".
+4. Abre la app CamSolid en el celular.
+5. En Zoom, Teams, OBS u otra aplicación, elige la cámara "CamSolid".
+
+Desinstalación
+Desde Configuración > Aplicaciones > Aplicaciones instaladas > CamSolid > Desinstalar.
+
+Nota
+El instalador y el desinstalador reinician el servicio de cámaras de Windows:
+las aplicaciones que estén usando una cámara la perderán un momento.

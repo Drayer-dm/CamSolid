@@ -1,0 +1,17 @@
+# Visual Studio y CMake
+.vs/
+pc/out/
+pc/build/
+pc/bin/
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.apk
+
+# Paquetes de instalación
+dist/

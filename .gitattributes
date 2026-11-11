@@ -1,0 +1,11 @@
+# Git normaliza los saltos de línea de los archivos de texto
+* text=auto
+
+# El script de Gradle para Linux y macOS necesita saltos LF
+android/gradlew text eol=lf
+
+# Los scripts de Windows necesitan saltos CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+*.jar binary
